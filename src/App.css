@@ -1,0 +1,48 @@
+@import 'tailwindcss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background-color: white;
+  height: 2000px;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 500px;
+  max-height: 550px;
+}
+
+button,
+input {
+  display: block;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.foto {
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, #00684a 87.9%, white 87.9%);
+}
