@@ -46,3 +46,11 @@ a {
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, #00684a 87.9%, white 87.9%);
 }
+
+.text-color {
+  color: #b8b8b8;
+}
+
+.paragraph-color {
+  color: #8a8a8a;
+}
