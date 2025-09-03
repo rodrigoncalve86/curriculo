@@ -4,7 +4,10 @@ import Phone from '../Assets/phone.svg?react';
 
 const Footer = () => {
   return (
-    <footer id="contato" className="bg-green-800 pt-[120px] pb-[60px]">
+    <footer
+      id="contato"
+      className="bg-green-800 pt-[120px] pb-[60px] scroll-mt-28"
+    >
       <div className="container flex gap-10">
         <div className="text-gray-400">
           <p className="text-2xl mb-[60px] max-w-[550px]">

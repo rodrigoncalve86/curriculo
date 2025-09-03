@@ -2,7 +2,7 @@ import React from 'react';
 
 const Experiencia = () => {
   return (
-    <section id="experiencia" className="my-[120px]">
+    <section id="experiencia" className="my-[120px] scroll-mt-28">
       <div className="container flex justify-between items-center">
         <div>
           <h1 className="font-bold text-[140px] leading-[168px] text-color">
