@@ -3,25 +3,25 @@ import Logo from '../Assets/logo.svg?react';
 
 const Header = () => {
   return (
-    <header className="h-28 shadow-md">
+    <header className="h-28 shadow-md fixed top-0 left-0 w-full z-50 bg-white">
       <div className="container h-full flex justify-between items-center ">
-        <a href="">
+        <a href="/">
           <Logo />
         </a>
         <nav>
           <ul className="flex gap-10 text-xl text-gray-400">
             <li>
-              <a href="" className="block p-4 hover:text-green-800">
+              <a href="#experiencia" className="block p-4 hover:text-green-800">
                 Experiência
               </a>
             </li>
             <li>
-              <a href="" className="block p-4 hover:text-green-800">
+              <a href="#formacao" className="block p-4 hover:text-green-800">
                 Formação
               </a>
             </li>
             <li>
-              <a href="" className="block p-4 hover:text-green-800">
+              <a href="#contato" className="block p-4 hover:text-green-800">
                 Contato
               </a>
             </li>
